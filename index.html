@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Expense Tracking App</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <input type="text" id="income" placeholder="Income">
+        <input type="text" id="expense" placeholder="Expense">
+
+        <h2> Your Income Is " <span id="currentIncome"></span> " </h2>
+        <h2> Your Expense Is " <span id="currentExpense"></span> " </h2>
+        
+        <button onclick="checkSaving()"> Check Saving </button>
+
+        <h3>Your Saving Is " <span id="saving"> </span> " </h3>
+
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
